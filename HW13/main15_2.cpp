@@ -53,7 +53,7 @@ int main()
         {
             for (int i = 0; i < vertexCount; ++i)
             {
-                perimeter += polygon[i]->distanceTo(*polygon[(i + 1) % vertexCount]);
+                perimeter += polygon[i]->distance(*polygon[(i + 1) % vertexCount]);
             }
             cout << "Perimeter: " << fixed << setprecision(2) << perimeter << endl;
         }
@@ -68,3 +68,4 @@ int main()
         }
         return 0;
     }
+}

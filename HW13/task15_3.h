@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 class Polynomial
@@ -25,3 +24,6 @@ public:
     friend bool saveToBinary(const Polynomial &p, const string &filename);
     friend Polynomial loadFromBinary(const string &filename);
 };
+
+bool saveToBinary(const Polynomial &p, const string &filename);
+Polynomial loadFromBinary(const string &filename);

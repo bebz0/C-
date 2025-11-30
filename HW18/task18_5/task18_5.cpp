@@ -24,7 +24,7 @@ int main() {
     // double array
     std::cout << "Test 2: Static Method" << std::endl;
     
-    double rawArray[] = {3.67, 1.5, 5, 0.3, 9.2};
+    double rawArray[] = {3.67, 1.5, 5.6, 0.3, 9.2};
     size_t rawSize = 5;
 
     std::cout << "Raw array before: ";
